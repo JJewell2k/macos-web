@@ -38,7 +38,8 @@
 
 {#if isOpen}
   <section class="overlay" use:portal={'#windows-area'} use:elevation={'system-dialog'}>
-    <div
+   
+    <div>
       class="dialog"
       class:dark={$theme.scheme === 'dark'}
       tabindex={0}
