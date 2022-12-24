@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { AppID } from '🍎/stores/apps.store';
+  import type { AppID } from '/stores/apps.store';
 
   export let appID: AppID;
   export let isBeingDragged: boolean;
@@ -16,7 +16,7 @@
 {:else if appID === 'wallpapers'}
   {#await import('./WallpaperApp/WallpaperSelectorApp.svelte') then { default: WallpaperSelector }}
     <WallpaperSelector />
-{:else}
+  {/await}
   {#await import('./AppStore/AppStore.svelte') then { default: AppStore }}
     <AppStore {appID} />
   {/await}
