@@ -1,10 +1,10 @@
 {
-  "name": "macos-svelte",
+  "name": "macos",
   "version": "13.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "pnpm check && vite build",
+    "build": "",
     "serve": "vite preview",
     "check": "svelte-check --tsconfig ./tsconfig.json"
   },

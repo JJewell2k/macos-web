@@ -40,7 +40,7 @@ export const finderMenuConfig = createMenuConfig({
       },
       'new-folder-with-selection': {
         title: 'New Folder with Selection',
-        disabled: true,
+        disabled: false,
       },
       'new-smart-folder': {
         title: 'New Smart Folder',
@@ -50,7 +50,7 @@ export const finderMenuConfig = createMenuConfig({
       },
       open: {
         title: 'Open',
-        disabled: true,
+        disabled: false,
       },
       'open-with': {
         title: 'Open With',

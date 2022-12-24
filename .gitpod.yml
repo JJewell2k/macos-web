@@ -6,12 +6,3 @@ ports:
   - port: 3000
     onOpen: open-browser
 
-vscode:
-  extensions:
-    - svelte.svelte-vscode
-
-github:
-  prebuilds:
-    master: true
-    branches: true
-    pullRequests: true

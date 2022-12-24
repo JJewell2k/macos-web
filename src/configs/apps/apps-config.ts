@@ -7,7 +7,7 @@ const wallpapers = createAppConfig({
   height: 600,
   width: 800,
 
-  dockBreaksBefore: true,
+  dockBreaksBefore: false,
 });
 
 const calculator = createAppConfig({
@@ -25,20 +25,11 @@ const calendar = createAppConfig({
   resizable: true,
 });
 
-const vscode = createAppConfig({
-  title: 'VSCode',
-  resizable: true,
-
-  height: 600,
-  width: 800,
-});
 
 const finder = createAppConfig({
   title: 'Finder',
   resizable: true,
 
-  // dockBreaksBefore: true,
-  shouldOpenWindow: false,
 });
 
 const safari = createAppConfig({
@@ -51,45 +42,6 @@ const systemPreferences = createAppConfig({
   resizable: true,
 });
 
-const purusTwitter = createAppConfig({
-  title: `About the Developer`,
-  resizable: true,
-
-  dockBreaksBefore: true,
-
-  height: 600,
-  width: 800,
-});
-
-const viewSource = createAppConfig({
-  title: `View Source`,
-  resizable: true,
-
-  shouldOpenWindow: false,
-  externalAction: () => window.open('https://github.com/puruvj/macos-web', '_blank'),
-});
-
-const ukraine = createAppConfig({
-  title: `Support Ukraine`,
-  resizable: true,
-
-  shouldOpenWindow: false,
-  externalAction: () => window.open('https://www.stopputin.net/', '_blank'),
-
-  dockBreaksBefore: true,
-});
-
-const vercel = createAppConfig({
-  title: `Powered by Vercel`,
-  resizable: true,
-
-  shouldOpenWindow: false,
-  externalAction: () =>
-    window.open('https://vercel.com/?utm_source=purus-projects&utm_campaign=oss', '_blank'),
-
-  dockBreaksBefore: true,
-});
-
 const appstore = createAppConfig({
   title: 'App Store',
   resizable: true,
@@ -100,16 +52,10 @@ export const appsConfig = {
   wallpapers,
   calculator,
   calendar,
-  vscode,
   appstore,
   // safari,
 
   // 'system-preferences': systemPreferences,
 
-  'purus-twitter': purusTwitter,
-  'view-source': viewSource,
-
-  vercel,
-
-  ukraine,
+  
 };

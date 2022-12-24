@@ -23,10 +23,10 @@ export default defineConfig({
         'assets/*.webp',
       ],
       manifest: {
-        name: 'Mac OS Monterey Svelte Web',
-        short_name: 'macOS Svelte',
+        name: 'Mac OS',
+        short_name: 'macOS',
         theme_color: '#ffffff',
-        description: 'Mac OS Monterey Web written in Svelte',
+        description: 'Mac OS',
         icons: [
           {
             src: 'app-icons/finder/128.png',
