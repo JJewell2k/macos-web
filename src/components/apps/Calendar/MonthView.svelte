@@ -18,7 +18,7 @@
   }
 
   function dayKey(date) {
-    return [date, selectedDate.getMonth()].join('-');
+  return [date, selectedDate.getMonth()].join('-');
   }
 
   $: ({ daysInPrevMonth, daysInThisMonth, daysInNextMonth } = getDisplayDays(selectedDate));

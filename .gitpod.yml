@@ -9,7 +9,6 @@ ports:
 vscode:
   extensions:
     - svelte.svelte-vscode
-    - vscode.npm
 
 github:
   prebuilds:
